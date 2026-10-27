@@ -1,0 +1,478 @@
+{
+ "name": "products",
+ "num_nodes": 2449029,
+ "graph_edges": 126167053,
+ "expander_edges": 14694166,
+ "exp_deg": 3,
+ "in_degree": {
+  "attn_mean": 57.517170682748144,
+  "attn_min": 7,
+  "graph_mean": 51.51717394934891,
+  "attn_le": {
+   "7": 0.019771509443130317,
+   "8": 0.061825319340848964,
+   "10": 0.12756606802124434,
+   "12": 0.18644981337501515,
+   "16": 0.2846532237878767,
+   "24": 0.413833809236232,
+   "32": 0.4997805252612362,
+   "64": 0.7267717123807027
+  },
+  "graph_le": {
+   "1": 0.019771509443130317,
+   "2": 0.061825319340848964,
+   "3": 0.0966815827824007,
+   "4": 0.12756606802124434,
+   "6": 0.18644981337501515,
+   "8": 0.2386149776094934,
+   "16": 0.3873147275920375
+  }
+ },
+ "variants": {
+  "native": {
+   "4x1": {
+    "col_nonempty_all": 0.9844848713510538,
+    "col_empty_nonowned": 0.020686838198594848,
+    "col_empty_tile_min": 0.015432219750497356,
+    "col_empty_tile_max": 0.01558248320152611,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 4.899895142296273e-06,
+    "edges_tile_max_over_mean": 1.0021511172638653,
+    "edges_tile_min_over_mean": 0.9990708656298083
+   },
+   "8x1": {
+    "col_nonempty_all": 0.9199218343269925,
+    "col_empty_nonowned": 0.0915179036262943,
+    "col_empty_tile_min": 0.07945955789879433,
+    "col_empty_tile_max": 0.0803693050968709,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 9.799790284481524e-06,
+    "edges_tile_max_over_mean": 1.0030464382109316,
+    "edges_tile_min_over_mean": 0.9961016168687281
+   },
+   "16x1": {
+    "col_nonempty_all": 0.7964784971921525,
+    "col_empty_nonowned": 0.21708960299503732,
+    "col_empty_tile_min": 0.20254385391827,
+    "col_empty_tile_max": 0.20421226276418514,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 7.186489399924056e-05,
+    "edges_tile_max_over_mean": 1.0054887285903724,
+    "edges_tile_min_over_mean": 0.9950675778263711
+   },
+   "32x1": {
+    "col_nonempty_all": 0.6307474692010588,
+    "col_empty_nonowned": 0.3811639027601973,
+    "col_empty_tile_min": 0.36623131524963093,
+    "col_empty_tile_max": 0.3714296447284178,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0003527889929834105,
+    "edges_tile_max_over_mean": 1.0107037338644642,
+    "edges_tile_min_over_mean": 0.9892437463571858
+   },
+   "64x1": {
+    "col_nonempty_all": 0.451177595538885,
+    "col_empty_nonowned": 0.557533871198593,
+    "col_empty_tile_min": 0.5443389539289727,
+    "col_empty_tile_max": 0.5529560391460004,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0015417984163901277,
+    "edges_tile_max_over_mean": 1.0172463437221853,
+    "edges_tile_min_over_mean": 0.9842856748243816
+   },
+   "2x2": {
+    "col_nonempty_all": 0.9995661545861646,
+    "col_empty_nonowned": 0.0008676908276709083,
+    "col_empty_tile_min": 0.00040995789356779166,
+    "col_empty_tile_max": 0.0004614067925613474,
+    "row_nonempty_all": 0.9995559464587802,
+    "row_empty_nonowned": 0.000888107082439582,
+    "row_empty_tile_min": 0.00041812438547150776,
+    "row_empty_tile_max": 0.0004777397763687796,
+    "edges_tile_max_over_mean": 1.0014502856176475,
+    "edges_tile_min_over_mean": 0.9983700339835906
+   },
+   "2x4": {
+    "col_nonempty_all": 0.9995467591441343,
+    "col_empty_nonowned": 0.0009064817117314661,
+    "col_empty_tile_min": 0.00040995789356779166,
+    "col_empty_tile_max": 0.00048018972393992776,
+    "row_nonempty_all": 0.9844848713510538,
+    "row_empty_nonowned": 0.020686838198594848,
+    "row_empty_tile_min": 0.01529093944056259,
+    "row_empty_tile_max": 0.015676397858419122,
+    "edges_tile_max_over_mean": 1.0033553947875462,
+    "edges_tile_min_over_mean": 0.9976184573555338
+   },
+   "4x4": {
+    "col_nonempty_all": 0.9845087583691332,
+    "col_empty_nonowned": 0.020654988841155686,
+    "col_empty_tile_min": 0.015140626531212176,
+    "col_empty_tile_max": 0.01589357462515928,
+    "row_nonempty_all": 0.9844846671885061,
+    "row_empty_nonowned": 0.020687110415325116,
+    "row_empty_tile_min": 0.015137359945121331,
+    "row_empty_tile_max": 0.015834776075523416,
+    "edges_tile_max_over_mean": 1.003741192953896,
+    "edges_tile_min_over_mean": 0.9967643400842641
+   },
+   "8x4": {
+    "col_nonempty_all": 0.9200485171878324,
+    "col_empty_nonowned": 0.09137312321390578,
+    "col_empty_tile_min": 0.07925502724315003,
+    "col_empty_tile_max": 0.08082461160545129,
+    "row_nonempty_all": 0.9844844630259585,
+    "row_empty_nonowned": 0.020687382632055384,
+    "row_empty_tile_min": 0.015035997543543345,
+    "row_empty_tile_max": 0.015980034756248984,
+    "edges_tile_max_over_mean": 1.0059755623724937,
+    "edges_tile_min_over_mean": 0.9957434203377156
+   },
+   "16x4": {
+    "col_nonempty_all": 0.7964114553155557,
+    "col_empty_nonowned": 0.2171611143300739,
+    "col_empty_tile_min": 0.20190209580055918,
+    "col_empty_tile_max": 0.20560143204327486,
+    "row_nonempty_all": 0.9844844630259585,
+    "row_empty_nonowned": 0.020687382632055384,
+    "row_empty_tile_min": 0.014751613661901919,
+    "row_empty_tile_max": 0.01620194946037057,
+    "edges_tile_max_over_mean": 1.0108691165025343,
+    "edges_tile_min_over_mean": 0.9918060413775065
+   },
+   "4x2": {
+    "col_nonempty_all": 0.9844631280397251,
+    "col_empty_nonowned": 0.020715829280366527,
+    "col_empty_tile_min": 0.015322788758987183,
+    "col_empty_tile_max": 0.01566659806813464,
+    "row_nonempty_all": 0.9995559464587802,
+    "row_empty_nonowned": 0.000888107082439582,
+    "row_empty_tile_min": 0.00040995789356779166,
+    "row_empty_tile_max": 0.000485089619082113,
+    "edges_tile_max_over_mean": 1.0026082196548363,
+    "edges_tile_min_over_mean": 0.996867874613523
+   },
+   "8x2": {
+    "col_nonempty_all": 0.9199335736734845,
+    "col_empty_nonowned": 0.09150448723030347,
+    "col_empty_tile_min": 0.07931679351909315,
+    "col_empty_tile_max": 0.08077369091562403,
+    "row_nonempty_all": 0.9995559464587802,
+    "row_empty_nonowned": 0.000888107082439582,
+    "row_empty_tile_min": 0.00040179008917784476,
+    "row_empty_tile_max": 0.0005063208440858613,
+    "edges_tile_max_over_mean": 1.0040878604067738,
+    "edges_tile_min_over_mean": 0.9966451873457094
+   },
+   "8x8": {
+    "col_nonempty_all": 0.9199673625751267,
+    "col_empty_nonowned": 0.09146587134271233,
+    "col_empty_tile_min": 0.07858598792693439,
+    "col_empty_tile_max": 0.08143112864870516,
+    "row_nonempty_all": 0.9199206603923432,
+    "row_empty_nonowned": 0.09151924526589339,
+    "row_empty_tile_min": 0.07907923275929651,
+    "row_empty_tile_max": 0.08116980688321529,
+    "edges_tile_max_over_mean": 1.0086350878448667,
+    "edges_tile_min_over_mean": 0.9907783064123561
+   },
+   "2x8": {
+    "col_nonempty_all": 0.9995555381336848,
+    "col_empty_nonowned": 0.0008889237326303867,
+    "col_empty_tile_min": 0.00039852350308688944,
+    "col_empty_tile_max": 0.000503054257995017,
+    "row_nonempty_all": 0.9199209155955279,
+    "row_empty_nonowned": 0.09151895360511098,
+    "row_empty_tile_min": 0.0794172410413877,
+    "row_empty_tile_max": 0.08054176330317186,
+    "edges_tile_max_over_mean": 1.003943264185439,
+    "edges_tile_min_over_mean": 0.9952991816718554
+   },
+   "4x16": {
+    "col_nonempty_all": 0.9844914045525798,
+    "col_empty_nonowned": 0.02067812726322693,
+    "col_empty_tile_min": 0.014816944103274388,
+    "col_empty_tile_max": 0.01641753991689965,
+    "row_nonempty_all": 0.7964756389164849,
+    "row_empty_nonowned": 0.2170926518224161,
+    "row_empty_tile_min": 0.2018106331826378,
+    "row_empty_tile_max": 0.20475213630543287,
+    "edges_tile_max_over_mean": 1.0106110468914797,
+    "edges_tile_min_over_mean": 0.9929037459203018
+   },
+   "ring": {
+    "4": 0.9999946917737601,
+    "16": 1.0,
+    "64": 1.0
+   }
+  },
+  "native_graph_only": {
+   "16x1": {
+    "col_nonempty_all": 0.7002970616109486,
+    "col_empty_nonowned": 0.31968313428165473,
+    "col_empty_tile_min": 0.29815682879822303,
+    "col_empty_tile_max": 0.3007566230032993,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 7.186489399924056e-05,
+    "edges_tile_max_over_mean": 1.0061273920696236,
+    "edges_tile_min_over_mean": 0.9944927856878768
+   },
+   "64x1": {
+    "col_nonempty_all": 0.3968068633017412,
+    "col_empty_nonowned": 0.6127676309315645,
+    "col_empty_tile_min": 0.5983782534559803,
+    "col_empty_tile_max": 0.6076968242872449,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0015417984163901277,
+    "edges_tile_max_over_mean": 1.019252086358869,
+    "edges_tile_min_over_mean": 0.9824526217633062
+   },
+   "4x4": {
+    "col_nonempty_all": 0.9127825762781903,
+    "col_empty_nonowned": 0.11628989829574632,
+    "col_empty_tile_min": 0.0862525724365466,
+    "col_empty_tile_max": 0.08817822493711824,
+    "row_nonempty_all": 0.9128596476399422,
+    "row_empty_nonowned": 0.11618713648007706,
+    "row_empty_tile_min": 0.08646326723940811,
+    "row_empty_tile_max": 0.08797896318557474,
+    "edges_tile_max_over_mean": 1.0040459611908348,
+    "edges_tile_min_over_mean": 0.996429265887664
+   },
+   "16x4": {
+    "col_nonempty_all": 0.7001419491153432,
+    "col_empty_nonowned": 0.31984858761030055,
+    "col_empty_tile_min": 0.29769122220189714,
+    "col_empty_tile_max": 0.3024538113779497,
+    "row_nonempty_all": 0.9128596476399422,
+    "row_empty_nonowned": 0.11618713648007706,
+    "row_empty_tile_min": 0.08521049468210207,
+    "row_empty_tile_max": 0.08939164292993962,
+    "edges_tile_max_over_mean": 1.012268583304391,
+    "edges_tile_min_over_mean": 0.9907037774750909
+   },
+   "8x8": {
+    "col_nonempty_all": 0.8216479878351788,
+    "col_empty_nonowned": 0.20383087104551,
+    "col_empty_tile_min": 0.17641832388219614,
+    "col_empty_tile_max": 0.18002783076802464,
+    "row_nonempty_all": 0.8217284278789675,
+    "row_empty_nonowned": 0.20373893956689426,
+    "row_empty_tile_min": 0.1757029555491677,
+    "row_empty_tile_max": 0.18071380040243556,
+    "edges_tile_max_over_mean": 1.0097221181824703,
+    "edges_tile_min_over_mean": 0.9896055509832666
+   }
+  },
+  "random": {
+   "16x1": {
+    "col_nonempty_all": 0.7965289253414313,
+    "col_empty_nonowned": 0.21703581296913999,
+    "col_empty_tile_min": 0.201956685068435,
+    "col_empty_tile_max": 0.20530003593244694,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 7.186489399924056e-05,
+    "edges_tile_max_over_mean": 1.0097884500062433,
+    "edges_tile_min_over_mean": 0.9927151915389856
+   },
+   "64x1": {
+    "col_nonempty_all": 0.45113008946607003,
+    "col_empty_nonowned": 0.5575821313360558,
+    "col_empty_tile_min": 0.5449889918206288,
+    "col_empty_tile_max": 0.5531932703112342,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0015417984163901277,
+    "edges_tile_max_over_mean": 1.0198529376634176,
+    "edges_tile_min_over_mean": 0.9822152114131569
+   },
+   "4x4": {
+    "col_nonempty_all": 0.9844930378529613,
+    "col_empty_nonowned": 0.020675949529384896,
+    "col_empty_tile_min": 0.01524679057916567,
+    "col_empty_tile_max": 0.01582007643811456,
+    "row_nonempty_all": 0.9844565948381991,
+    "row_empty_nonowned": 0.020724540215734444,
+    "row_empty_tile_min": 0.015305589128801533,
+    "row_empty_tile_max": 0.01581517655897824,
+    "edges_tile_max_over_mean": 1.004370805565725,
+    "edges_tile_min_over_mean": 0.9965459123280767
+   },
+   "16x4": {
+    "col_nonempty_all": 0.7965894340165021,
+    "col_empty_nonowned": 0.21697127038239783,
+    "col_empty_tile_min": 0.2013484203099276,
+    "col_empty_tile_max": 0.2057353594480884,
+    "row_nonempty_all": 0.9844559823505561,
+    "row_empty_nonowned": 0.02072535686592525,
+    "row_empty_tile_min": 0.01498027020670556,
+    "row_empty_tile_max": 0.016195416416233344,
+    "edges_tile_max_over_mean": 1.0082593421259545,
+    "edges_tile_min_over_mean": 0.9921277196955111
+   },
+   "8x8": {
+    "col_nonempty_all": 0.9200476494970047,
+    "col_empty_nonowned": 0.09137411486056601,
+    "col_empty_tile_min": 0.07871991533174794,
+    "col_empty_tile_max": 0.08165325214937147,
+    "row_nonempty_all": 0.920052090032417,
+    "row_empty_nonowned": 0.09136903996295209,
+    "row_empty_tile_min": 0.07892243970000257,
+    "row_empty_tile_max": 0.08175124781143017,
+    "edges_tile_max_over_mean": 1.009103520536763,
+    "edges_tile_min_over_mean": 0.9900586193280068
+   },
+   "ring": {
+    "4": 0.9999946917737601,
+    "16": 1.0,
+    "64": 1.0
+   }
+  },
+  "rcm": {
+   "16x1": {
+    "col_nonempty_all": 0.5692165394938157,
+    "col_empty_nonowned": 0.4595023578732632,
+    "col_empty_tile_min": 0.3387135367327606,
+    "col_empty_tile_max": 0.6070554176330317,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 7.186489399924056e-05,
+    "edges_tile_max_over_mean": 1.684225890448953,
+    "edges_tile_min_over_mean": 0.3429209000384982
+   },
+   "64x1": {
+    "col_nonempty_all": 0.23599036597769973,
+    "col_empty_nonowned": 0.7761367710702733,
+    "col_empty_tile_min": 0.6478844369822563,
+    "col_empty_tile_max": 0.8957297573627407,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0015417984163901277,
+    "edges_tile_max_over_mean": 1.9847329590410545,
+    "edges_tile_min_over_mean": 0.12151807375740516
+   },
+   "4x4": {
+    "col_nonempty_all": 0.9688114146463762,
+    "col_empty_nonowned": 0.041584780471498384,
+    "col_empty_tile_min": 1.796622349981014e-05,
+    "col_empty_tile_max": 0.07158396759546592,
+    "row_nonempty_all": 0.9351696121197421,
+    "row_empty_nonowned": 0.08644051717367718,
+    "row_empty_tile_min": 0.021335707052559383,
+    "row_empty_tile_max": 0.11530885571489236,
+    "edges_tile_max_over_mean": 1.7061971329383427,
+    "edges_tile_min_over_mean": 0.3789663640494266
+   },
+   "16x4": {
+    "col_nonempty_all": 0.656238375494941,
+    "col_empty_nonowned": 0.3666790661387296,
+    "col_empty_tile_min": 0.139967204118431,
+    "col_empty_tile_max": 0.5310580918284684,
+    "row_nonempty_all": 0.9351711433388498,
+    "row_empty_nonowned": 0.08643847554820028,
+    "row_empty_tile_min": 0.014562155381921738,
+    "row_empty_tile_max": 0.1244152925497165,
+    "edges_tile_max_over_mean": 2.207800061704705,
+    "edges_tile_min_over_mean": 0.3194760937004244
+   },
+   "8x8": {
+    "col_nonempty_all": 0.8626313224547362,
+    "col_empty_nonowned": 0.1569927743374444,
+    "col_empty_tile_min": 0.018775968850445524,
+    "col_empty_tile_max": 0.3024309457234693,
+    "row_nonempty_all": 0.7742066855884516,
+    "row_empty_nonowned": 0.25804950218462674,
+    "row_empty_tile_min": 0.1436747066663182,
+    "row_empty_tile_max": 0.35836033658243394,
+    "edges_tile_max_over_mean": 1.9529976664478532,
+    "edges_tile_min_over_mean": 0.24771911139005548
+   },
+   "ring": {
+    "4": 0.9999579425151764,
+    "16": 1.0,
+    "64": 1.0
+   }
+  },
+  "rcm_graph_only": {
+   "16x1": {
+    "col_nonempty_all": 0.365487556496881,
+    "col_empty_nonowned": 0.6768132730699936,
+    "col_empty_tile_min": 0.49902614902165743,
+    "col_empty_tile_max": 0.8940829876196387,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 7.186489399924056e-05,
+    "edges_tile_max_over_mean": 1.7639143239717265,
+    "edges_tile_min_over_mean": 0.26639297027885717
+   },
+   "64x1": {
+    "col_nonempty_all": 0.16027597059895984,
+    "col_empty_nonowned": 0.8530529822486758,
+    "col_empty_tile_min": 0.7120903781325947,
+    "col_empty_tile_max": 0.9843990906002561,
+    "row_nonempty_all": 1.0,
+    "row_empty_nonowned": 0.0,
+    "row_empty_tile_min": 0.0,
+    "row_empty_tile_max": 0.0015417984163901277,
+    "edges_tile_max_over_mean": 2.0994179518483325,
+    "edges_tile_min_over_mean": 0.019381541708832654
+   },
+   "4x4": {
+    "col_nonempty_all": 0.8245250464571877,
+    "col_empty_nonowned": 0.23396660472374975,
+    "col_empty_tile_min": 1.796622349981014e-05,
+    "col_empty_tile_max": 0.40210204814947903,
+    "row_nonempty_all": 0.6357341011478427,
+    "row_empty_nonowned": 0.48568786513620976,
+    "row_empty_tile_min": 0.12216868650573287,
+    "row_empty_tile_max": 0.645572142553817,
+    "edges_tile_max_over_mean": 1.7885350147633234,
+    "edges_tile_min_over_mean": 0.30649142609362523
+   },
+   "16x4": {
+    "col_nonempty_all": 0.4935710234546018,
+    "col_empty_nonowned": 0.5401909083150914,
+    "col_empty_tile_min": 0.20522904852745183,
+    "col_empty_tile_max": 0.7826570543810594,
+    "row_nonempty_all": 0.6357421655684763,
+    "row_empty_nonowned": 0.48567711257536494,
+    "row_empty_tile_min": 0.0804675046384613,
+    "row_empty_tile_max": 0.6987809339639899,
+    "edges_tile_max_over_mean": 2.3486509429684466,
+    "edges_tile_min_over_mean": 0.24011289223027188
+   },
+   "8x8": {
+    "col_nonempty_all": 0.69376230334553,
+    "col_empty_nonowned": 0.34998593903368,
+    "col_empty_tile_min": 0.04203033945697332,
+    "col_empty_tile_max": 0.6755232968353935,
+    "row_nonempty_all": 0.4968449230286779,
+    "row_empty_nonowned": 0.575034373681511,
+    "row_empty_tile_min": 0.31927313350929,
+    "row_empty_tile_max": 0.7970411843102412,
+    "edges_tile_max_over_mean": 2.064097668984945,
+    "edges_tile_min_over_mean": 0.16008743582209217
+   }
+  }
+ }
+}

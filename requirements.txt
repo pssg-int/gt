@@ -1,0 +1,21 @@
+# Python 3.11.  Versions are those of the Perlmutter environment the code was developed in
+# (A100, CUDA 12.8 wheels).  Install torch first with the CUDA index that matches your system.
+torch==2.8.0
+triton==3.4.0
+torch-geometric==2.6.1
+torch-scatter==2.1.2
+ogb==1.3.6
+numpy==2.3.3
+scipy==1.16.2
+matplotlib==3.10.8
+
+# Distributed-training libraries used unmodified (see gt3d/README.md, "Dependencies on Plexus and AxoNN")
+axonn==0.2.0
+# plexus is not on PyPI: clone https://github.com/hpcgroup/plexus at commit c3f2660 and put it on PYTHONPATH.
+
+# Optional
+# flash-attn==2.8.3          # bench/bench_kernel_external.py only
+# dgl==2.1.0                 # bench/bench_kernel_external.py only
+# graphgps (official Exphormer, https://github.com/hamed1375/Exphormer) on PYTHONPATH: tests/test_ref_vs_official.py only
+
+# baseline/dac26 uses its own environment (the DAC'26 paper's stack): torch==2.3.0+cu121, dgl==2.3.0

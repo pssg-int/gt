@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------
+# Kept out of the public repository on purpose
+# ---------------------------------------------------------------------------
+# Development plans, assessments, reports and paper material
+/dev_plan_gt_scaling.md
+/research_plan_gt_scaling.md
+/gt_architectures_and_plan.md
+/paper_checklist.md
+/contributions_audit_*.md
+/plexus_axonn_integration_assessment.md
+/torchgt_profiling_report.md
+/bk/
+/pssg-plots/
+/papers-2026-parallel-gt/
+/papers-2025-plexus-sc/
+/baseline/papers/
+# Experiment logs and generated figures (results, not code)
+/gt3d/RESULTS.md
+/gt3d/figs/
+/gt3d/figures/
+# Stale working copies of gt3d used to run experiments in parallel
+/gt3d_ring/
+/gt3d_snap/
+# Claude Code / assistant artifacts
+.claude/
+.claude*
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+/artifact_*/
+
+# ---------------------------------------------------------------------------
+# Data, environments and third-party checkouts
+# ---------------------------------------------------------------------------
+/data/
+/baseline/dac26_env/
+/baseline/dac26_graphs/
+/baseline/dac26/kernel_ref/
+/baseline/nccl-tests/
+/baseline/torchgt/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+
+# ---------------------------------------------------------------------------
+# Build outputs and binaries
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.o
+/gt3d/gt3d/dist/pullcomm/selftest
+/gt3d/gt3d/dist/pullcomm/selftest_*
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# Logs, profiler output, backups, editor files
+# ---------------------------------------------------------------------------
+logs/
+*.log
+*.out
+*.err
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+/gt3d/bench/kernel_ncu.csv
+*.bak
+*.bak_*
+*~
+*.swp
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
+.ipynb_checkpoints/

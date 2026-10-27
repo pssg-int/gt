@@ -1,0 +1,254 @@
+[
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 4,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 4,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 4,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 128,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 128,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "4x32",
+  "d": 128,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 16,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "dot",
+  "cfg": "4x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "2x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 1,
+  "n": 612352,
+  "pass_": "col"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "fwd"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "row"
+ },
+ {
+  "score": "gated",
+  "cfg": "1x32",
+  "d": 64,
+  "n": 612352,
+  "pass_": "col"
+ }
+]
